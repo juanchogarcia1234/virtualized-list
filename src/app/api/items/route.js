@@ -18,7 +18,7 @@ export async function GET(request, res) {
 		return data
 	}
 
-	const rowCount = 10000
+	const rowCount = process.env.NEXT_PUBLIC_DATA_ROWS
 	const fakeData = generateFakeData(rowCount)
  
   return Response.json(fakeData)

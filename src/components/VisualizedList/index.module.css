@@ -7,9 +7,8 @@
 }
 
 .container {
-  max-height: 500px;
   margin-top: 3rem;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .list {
